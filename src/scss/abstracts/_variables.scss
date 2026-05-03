@@ -1,0 +1,45 @@
+:root {
+  // Colors
+  --color-primary: #A9D6CB;
+  --color-primary-dark: #80b4a6;
+  --color-secondary: #f3f3f3;
+  --color-accent: #f3c6b8;
+
+  --color-text: #264065;
+  --color-text-2: #737373db;
+  --color-text-muted: #6f6f6f;
+  --color-white: #ffffff;
+  --color-background: #e8e8e8;
+
+  // Typography
+  --font-primary: "Poppins", Arial, Helvetica, sans-serif;
+
+  // Layout
+  --container-max-width: 1600px;
+  --container-padding: 1.5rem;
+
+  // Spacing
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  // Radius
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-pill: 999px;
+
+  // Shadows
+  --shadow-soft: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+// Sass-only variables
+$breakpoints: (
+  tablet: 768px,
+  desktop: 1024px,
+  wide: 1200px
+);

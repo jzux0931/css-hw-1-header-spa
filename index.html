@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS HW 1 - Header Spa & Beauty</title>
+  <meta name="description" content="CSS Homework #1 Header Spa & Beauty">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+  <body>
+    <div class="header__container">
+      <header class="header">
+          <a href="#" class="header__logo">
+            <img src="/src/assets/icons/glowqueen-logo.svg" width="175" alt="Glowqueen logo">
+           </a>
+  
+          <nav class="nav-primary">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Facilities</a></li>
+              <li class="nav-primary__more">
+                <details>
+                  <summary>More ▾</summary>
+
+                  <ul class="nav-primary__dropdown">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="header__actions">
+            <ul>
+              <li>
+                <a class="header__action" href="#" aria-label="Search">
+                  <img src="/src/assets/icons/search-logo.svg" alt="">
+                </a>
+              </li>
+    
+              <li>
+                <a class="header__action" href="#" aria-label="Shopping cart">
+                  <img src="/src/assets/icons/shopping-logo.svg" alt="">
+                </a>
+              </li>
+    
+              <li><a class="btn btn--secondary" href="#">Sign In</a></li>
+              <li><a class="btn btn--secondary" href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </header>   
+    </div>
+
+    <main class="main">
+     <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Bring back the beauty and glow of your skin</h1>
+          <p class="hero__text">
+              We provide you various treatments from head to toe using the best product, advanced technology, and affordable price
+          </p>
+        </div>
+
+        <div class="hero__actions">
+          <a class="btn btn--secondary" href="#">Book Now</a>
+          
+          <a class="hero__video-link" href="#">
+            <img src="/src/assets/icons/play-icon.svg" alt="">
+            <span>Watch Video</span>
+          </a>
+        </div>
+
+        <div class="hero__img-1">
+          <img class="hero__woman" src="/src/assets/img/woman-background.svg" width="1000" alt="">
+        </div>
+
+        <div class="hero__img-2">
+          <img class="hero__shape" src="/src/assets/icons/vector-logo.svg" alt="">
+        </div>
+      </section>
+
+      <section class="items" aria-label="GlowQueen service highlights">
+        <div class="items__item">
+          <img src="/src/assets/icons/woman-icon.svg" alt="">
+          <strong class="items__number">15+</strong>
+          <p class="items__text">Special Treatment</p>
+        </div>
+
+        <div class="items__item">
+          <img src="/src/assets/icons/lotus-icon.svg" alt="">
+          <strong class="items__number">25+</strong>
+          <p class="items__text">Professional Therapist</p>
+        </div>
+
+        <div class="items__item">
+          <img src="/src/assets/icons/mortar-icon.svg" alt="">
+          <strong class="items__number">100%</strong>
+          <p class="items__text">Herbal Cream Formula</p>
+        </div>
+      </section>
+
+      <section class="testimonial" aria-label="Customer testimonials">
+        <article class="testimonial__card--primary">
+          <img src="/src/assets/icons/ap-icon.svg" alt="">
+          <blockquote class="testimonial__quote">
+            <p>I have a regular schedule to take treatment from GlowQueen, 
+            they gave me the best service and treatment ever to maintain the beauty and health of my skin</p>
+          </blockquote>
+          <cite class="testimonial__author">Sophia Princeton</cite>
+        </article>
+        
+        <article class="testimonial__card--secondary">
+          <img src="/src/assets/icons/ap-icon.svg" alt="">
+          <blockquote class="testimonial__quote">
+            <p>For the past few years, I've had a hard time finding the right place for skin care to deal with my complicated skin condition, 
+            thank God I found GlowQueen to treat my skin</p>
+          </blockquote>
+          <cite class="testimonial__author">Tamara Jules</cite>
+        </article>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

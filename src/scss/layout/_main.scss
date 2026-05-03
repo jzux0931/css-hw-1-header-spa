@@ -1,0 +1,46 @@
+.main {
+  position: relative;
+  overflow: visible;
+  isolation: isolate;
+  background-color: var(--color-background);
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 720px;
+  background: linear-gradient(
+    to bottom,
+    var(--color-primary) -100%,
+    var(--color-white) 50%,
+    #fff 50%,
+    #fff 100%
+  );
+
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 80%;
+  background-color: var(--color-primary);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 30%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.header,
+.hero,
+.items {
+  position: relative;
+
+}
