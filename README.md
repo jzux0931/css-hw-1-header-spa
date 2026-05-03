@@ -1,6 +1,6 @@
-# CSS HW 1 - Spa & Beauty Header
+# Conquerblocks CSS HW 1 - Spa & Beauty Header
 
-A responsive landing page exercise built with HTML, Sass, and Vite.
+CSS Homework 1 |  Landing page exercise built with HTML, Sass, and Vite.
 
 ## Features
 
